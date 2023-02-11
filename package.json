@@ -18,7 +18,7 @@
     "chai": "^4.3.4",
     "ethereum-waffle": "^3.0.0",
     "ethers": "^5.0.0",
-    "hardhat": "^2.1.2",
+    "hardhat": "^2.12.7",
     "prettier": "^2.2.1",
     "prettier-plugin-solidity": "^1.0.0-beta.7",
     "ts-generator": "^0.1.1",
@@ -36,5 +36,19 @@
     "lodash": "^4.17.21",
     "lodash.combinations": "^18.10.0",
     "winston": "^3.3.3"
-  }
+  },
+  "description": "**Note**: This repo is not under maintenning. If you encounter problems when running. Please figure it out by yourself.",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/totodo/amm-arbitrageur.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/totodo/amm-arbitrageur/issues"
+  },
+  "homepage": "https://github.com/totodo/amm-arbitrageur#readme"
 }

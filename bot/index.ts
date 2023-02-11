@@ -60,10 +60,11 @@ function arbitrageFunc(flashBot: FlashBot, baseTokens: Tokens) {
           log.info(`Tx: ${receipt.transactionHash}`);
         });
       } catch (err) {
-        if (err.message === 'Too much pending tasks' || err.message === 'async-lock timed out') {
-          return;
-        }
         log.error(err);
+
+        // if (err.message === 'Too much pending tasks' || err.message === 'async-lock timed out') {
+        return;
+        // }
       }
     }
   };

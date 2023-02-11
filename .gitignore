@@ -8,3 +8,5 @@ typechain
 
 #Secret key
 .secret.ts
+.secret.ts
+.secret.ts.sample

@@ -19,3 +19,9 @@ main()
     console.error(err);
     process.exit(1);
   });
+
+
+  function a () {
+     return 1+1;
+  }
+  a(); //2
